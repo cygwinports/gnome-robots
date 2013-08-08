@@ -1,0 +1,13 @@
+inherit gnome2
+
+NAME="gnome-robots"
+VERSION=3.8.1
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="GNOME robots game"
+DESCRIPTION="Robots is a graphical version of the original text based robots
+game, which can be found on a number of *NIX systems.  The player must outwit
+the robots chasing him/her by getting them to run into each other."
+OBSOLETES="gnobots2"
+
+CYGCONF_ARGS="--disable-setgid"
